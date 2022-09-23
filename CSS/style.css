@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -171,7 +172,7 @@ height: 3rem;
  }
 
  
-form {
+.form {
     width: 40%;
     position: relative;
 }
@@ -237,4 +238,76 @@ form {
     background-size: cover;
     background-position-y: -25em;
     height: 100vh;
+ }
+
+
+
+
+
+
+
+ /* shipping */
+ #ship-nav {
+    justify-content: space-between;
+    border-bottom: 1px solid #AEB4A9;
+ }
+
+  #ship-nav a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+ .ship-wrap input{
+    border:none;
+    border-bottom: 1px solid #AEB4A9;
+    height: 3em;
+    width: 100%;
+    background-color: #f5fffa;
+    padding: 0 2em;
+    outline:#AEB4A9;
+ }
+
+ .ship-wrap label {
+    color: #6A6B70;
+    font-weight: 500;
+ }
+
+ .ship-form {
+    width: 30%;
+ }
+
+ #country {
+    border:none;
+    border-bottom: 1px solid #AEB4A9;
+    height: 3em;
+    height: 3em;
+    width: 100%;
+    background-color: #f5fffa;
+    padding: 0 2em;
+    appearance: none;
+    outline:#AEB4A9;
+ }
+
+ #checkout-btn {
+    color: azure;
+    background-color: #000000;
+    font-weight: 500;
+    border-radius: 30px;
+ }
+
+
+ @media screen and (max-width:592px) {
+    .ship-wrap {
+        justify-content: start;
+    }
+
+    .ship-form {
+    width: 100%;
+    }
+
+    .ship-wrap label {
+        padding: 0 2em;
+ }
+
+    
  }
