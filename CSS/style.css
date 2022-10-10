@@ -31,33 +31,30 @@
     justify-content: space-evenly;
     height: 3rem;
 }
-li {
+.top-nav li {
     list-style: none;
+    padding: 0.4rem 0 0 0;
+}
+
+.top-nav {
+    position: relative;
 }
 
 .top-nav a {
     text-decoration: none;
     color: #00ffff;
     font-size: 22px;
-    font-weight: 700;
-    
+    font-weight: 700; 
 }
 
-
-#nav-search {
-    margin-left: 1rem;
-
-}
-
-#nav-search input {
-background-color: #000000;
-color:#00ffff ;
-border: none;
-height: 3rem;
+.fa-magnifying-glass {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
 }
 
 .row {
-    height: 50%;
+    height: 40%;
 }
 
 .col-md-6 img {
@@ -96,7 +93,7 @@ height: 3rem;
 
 .login-div button {
     padding: 15px 30px;
-    border-radius: 30px !important;  
+    border-radius: 30px !important; 
 }
 
 #login-btn {
@@ -128,33 +125,51 @@ height: 3rem;
 
  .feed-bar {
     display: flex;
-    margin-left: 30px;
-    margin-top: 50px;
+    margin: 2rem 0 0 2rem;
     border-bottom:2px solid #6A6B70;
-    padding-bottom: 20px;
+    padding:0 0.7rem 0.5rem 2rem;
+    justify-content: space-between;
  }
 
  .feed-bar a {
     text-decoration: none;
-    color: #6A6B70
-     ;
-
+    color: #010105;
  }
 
  .feed-bar a:hover {
     color: #000000
  }
 
+ #profile-pic {
+    height: 1.5rem;
+ }
+
  #form {
     margin-left: 30px;
- }    
+    padding:0 0 1rem 4.2rem;
+    border-bottom: 1px solid #6A6B70;
+    position: relative;
+ } 
+
+ .fa-sliders {
+    position: absolute;
+    left: 2rem;
+ }
 
  #form input  {
     border: none; 
     outline: none;
-    width:75vw;
-    padding-left: 20px;
-    border-bottom: 1px solid red;      
+    width:75vw;      
+ }
+
+ #search-btn {
+    border:none;
+    background-color: transparent;
+    position: absolute;
+ }
+
+ @media screen and (max-width:) {
+    
  }
 
 
