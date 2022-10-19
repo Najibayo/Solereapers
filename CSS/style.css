@@ -378,3 +378,41 @@
  .cvv-flex input {
     border-bottom: 2px solid #6A6B70;
  }
+
+
+
+ /* payment success */
+  .sucess-header {
+    border-bottom: 3px solid #AEB4A9;
+ }
+
+ .sucess-header a {
+    text-decoration: none;
+    color: #000000;
+ }
+
+ .success-img {
+   margin: 5em 0 0 0;
+ }
+
+ .success-img img {
+   height: 350px;
+   margin: 0 0 0 4em;
+ }
+
+ .success-img figcaption {
+   font-size: 40px;
+   font-weight: 500;
+   margin: 1em 0 0 0;
+ }
+
+ @media screen and (max-width:482px) {
+ .success-img figcaption {
+   font-size: 30px;
+   margin: 1em 0 0 1em;
+ }
+  .success-img img {
+   height: 300px;
+
+ }
+ }
