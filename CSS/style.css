@@ -259,8 +259,6 @@
 
 
 
-
-
  /* shipping */
  #ship-nav {
     justify-content: space-between;
@@ -325,4 +323,58 @@
  }
 
     
+ }
+
+
+
+
+ /* payment vendor */
+ .pay-header {
+    border-bottom: 3px solid #AEB4A9;
+ }
+
+ .pay-header a {
+    text-decoration: none;
+    color: #000000;
+ }
+
+ #payment-text {
+    border-bottom: 1px solid #000000;
+ }
+
+ .payment-form select {
+    border: none;
+ }
+
+  .payment-form label {
+    font-weight: 500;
+ }
+ #cardIcons{
+   list-style: none;
+ }
+
+ #cardIcons img{
+    height: 50px;
+ }
+ #card-icon {
+    height: 20px;
+ }
+
+ .card-input {
+    height:3rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #6A6B70;
+    background-color: #f5fffa;
+    padding: 0 2em;
+    outline:#AEB4A9;
+ }
+ 
+
+ .cvv-flex {
+    width: 100%;
+    margin-top: 10em;
+ }
+ .cvv-flex input {
+    border-bottom: 2px solid #6A6B70;
  }
